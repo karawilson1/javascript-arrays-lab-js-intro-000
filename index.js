@@ -31,6 +31,6 @@ function prependKitten(name) {
   return (kittens.slice(name).reverse().concat(name)).reverse()
 }
 
-function removeLastKitten() {
+function removeLastKitten(name) {
   return (0, kittens.length - 1)
 }
