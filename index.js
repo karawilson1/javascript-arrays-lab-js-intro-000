@@ -28,5 +28,5 @@ function appendKitten(name) {
 
 function prependKitten(name) {
   //kittens.slice('Arnold')
-  return (kittens.slice(name, -3))
+  return (kittens.slice(-3))
 }
