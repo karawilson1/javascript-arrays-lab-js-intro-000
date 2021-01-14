@@ -30,3 +30,7 @@ function prependKitten(name) {
   //kittens.slice('Arnold')
   return (kittens.slice(name).reverse().concat(name)).reverse()
 }
+
+function removeLastKitten() {
+  return (0, kittens - 1)
+}
